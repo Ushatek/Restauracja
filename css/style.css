@@ -1,0 +1,168 @@
+hr 
+{
+  width: 55%;
+  margin: 0px;
+}
+
+input[type=submit]
+{
+	width:20%;
+	margin: 5px;
+	background-color: 15C9F1;
+	border: none;
+	padding: 20px;
+	cursor: pointer;
+	margin-left: 15%;
+	font-weight: bold;
+}
+
+table
+{
+	width:50%;
+	border:1px solid #000000; 
+	background:#EFCDA2;
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+th
+{
+	border:1px solid #000000; 
+	background: #FF9022;
+}
+
+td
+{
+	border:1px solid #000000; 
+	padding: 5px;
+	text-align: center;
+}
+h1
+{
+	
+	
+	text-align: center;
+	margin-right: 50%;
+	color: white;
+}
+
+tr:nth-of-type(odd) /*koloruje nieparzyste wiersze tabel na wybrany kolor*/
+{
+	background: #FDF9F4;
+}
+
+#body
+{
+
+	background: #444e4a;
+	font-family:Arial;
+	padding: 20px;
+}
+
+
+#logo_strony a 
+{ 
+	float: left; /*logo z lewej*/
+	display: block; 
+	width: 280px; 
+	height: 190px; 
+	background: url(../images/logo.png); 
+}
+
+
+#menu_gorne ul li 
+{
+	display: inline; /*menu horyzontalne*/
+	font-size: 20px;
+}
+
+#menu_gorne a 
+{
+	float: left;
+	padding: 20px;
+	margin-top: 130px;
+	margin-bottom: 10px;
+	color: #ff740b;	
+	text-decoration: none; /*tekst bez podkreślenia */
+	font-weight: bold;
+}
+
+
+
+#menu_glowne 
+{
+	clear: both;/*poniżej elemntow float*/
+}
+
+#menu_glowne td
+{
+	width: 50%;
+}
+
+#stopka 
+{
+	background: #45464D;
+	padding: 5px;
+	text-align: center;
+}
+
+#rejestracja_main
+{
+	clear: both;
+}
+
+#formularz_main
+{
+	width: 300px;
+	padding: 10px;
+	background: #3B4142;
+	box-shadow: 5px 10px 15px #000000;
+	border-radius: 20px;
+	margin: 20px 0px 10px 10px;
+	text-align: center;
+	color: white;
+}
+
+#formularz_main h1, #formularz_main input[type=submit]
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#formularz_main label
+{
+	line-height: 2;
+}
+
+#formularz_main input
+{
+	padding: 8px;
+	width: 70%;
+}
+
+
+#formularz_main a
+{
+
+	color: black;
+	background-color: #ff740b;
+	padding: 5px 15px 5px 15px;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#rezerwacje_main
+{
+	clear: both;
+}
+
+#rezerwacje_main td
+{
+	width: 25%;
+}
+
+#rezerwacje_main ul
+{
+	list-style-type: none;
+}

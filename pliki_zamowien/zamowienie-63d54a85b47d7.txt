@@ -1,0 +1,11 @@
+Zamówienie nr: 22
+Produky:
+Makaron z serem, cena: 9.00
+Barszcz z uszkami, cena: 9.50
+Kod weryfikacji: 63d54a85b4ad7
+----------------------------------------------
+Zamówienie nr: 23
+Produky:
+Pierogi z serem, cena: 10.12
+Kod weryfikacji: 63d54a85b4bbf
+----------------------------------------------
